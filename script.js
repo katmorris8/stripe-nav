@@ -3,7 +3,7 @@ const background = document.querySelector('.dropdownBackground')
 const nav = document.querySelector('.top')
 
 function handleEnter() {
-  console.log('enterrr');
+  this.classList.add('trigger-enter')
 }
 
 function handleLeave() {
