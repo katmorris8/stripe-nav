@@ -8,7 +8,7 @@ function handleEnter() {
 }
 
 function handleLeave() {
-  console.log('leave');
+  this.classList.remove('trigger-enter', 'trigger-enter-active')
 }
 
 triggers.forEach(trigger => trigger.addEventListener('mouseenter', handleEnter))
